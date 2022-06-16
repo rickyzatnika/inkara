@@ -45,7 +45,7 @@
     margin-inline-end: 1.8rem ;
     color: #eeeeee;
     font-weight: 600;
-    font-size: calc(1rem + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(15px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 .nav-menu .nav-links:hover a {
     color: rgb(34, 46, 77);
@@ -126,7 +126,7 @@
         width: 80px !important;
     }
     .nav-item.active .nav-links a {
-        font-size: calc(20px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+        font-size: calc(20px + (22 - 14) * ((100vw - 300px) / (1600 - 300)));
         line-height: 3rem;
     }
     .navbar.active .nav-logo img {

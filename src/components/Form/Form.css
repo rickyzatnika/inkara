@@ -13,8 +13,9 @@
 .formTitle {
   text-align: center;
   margin: 8vh auto;
-  color: rgb(243, 242, 242);
+  color: rgb(228, 228, 228);
   font-weight: bold;
+  text-shadow:  3px 3px 5px rgba(34, 34, 34, 0.541);
 }
 
 

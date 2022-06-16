@@ -18,9 +18,11 @@ const Event = () => {
           <div className="sponsor">
             <div className="sponsor-flex">
               <h3>SPONSOR :</h3>
-              <img src={sponsor1} alt="logo sponsor" />
-              <img src={sponsor2} alt="logo sponsor" />
-              <img src={sponsor3} alt="logo sponsor" />
+              <div>
+                <img src={sponsor1} alt="logo sponsor" />
+                <img src={sponsor2} alt="logo sponsor" />
+                <img src={sponsor3} alt="logo sponsor" />
+              </div>
               
             </div>
           </div>
