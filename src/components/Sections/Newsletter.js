@@ -1,7 +1,7 @@
 import React from 'react'
 import './Newsletter.css'
 import { Link } from 'react-router-dom'
-import bgContacts from '../../images/Assets/bgEnd.png'
+// import bgContacts from '../../images/Assets/bgEnd.png'
 import newsletter from '../../images/newsletter.png'
 
 
@@ -10,9 +10,9 @@ const Newsletter = () => {
     <>
       <section className="contacts">
         <div className="contacts-container">
-          <div className="bg-contacts">
+          {/* <div className="bg-contacts">
             <img src={bgContacts} alt="" />
-          </div>
+          </div> */}
           <div className="container-grid">
             <div className="grid-contacts">
               <div className="grid-1">

@@ -6,7 +6,7 @@
 .service-container {
     position: relative;
     height: 550px;
-    background: hsl(0 0% 3% / 0.90);
+    background: hsl(0 0% 10% / 0.90);
     text-align: center;
     padding: 0.5rem 6%;
 }

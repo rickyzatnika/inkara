@@ -3,14 +3,12 @@
     justify-content: space-between;
     padding: 0.5rem 6%;
     width: 100%;
+    max-width: 100%;
     align-items: center;
     background: hsl(0 0% 0% / 0.0);
-    -webkit-backdrop-filter: blur(3px);
-    backdrop-filter: blur(3px);
     transition: 0.5s ease-in-out;
     z-index: 9999;
-    
-    
+    position: fixed;
 }
 
 .navbar.active {
@@ -104,6 +102,7 @@
         transition: 0.4s;
         align-items: center;
     }
+
     
     .hamburger {
         display: flex;
@@ -125,6 +124,10 @@
     }
     .nav-logo img {
         width: 80px !important;
+    }
+    .nav-item.active .nav-links a {
+        font-size: calc(20px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+        line-height: 3rem;
     }
     .navbar.active .nav-logo img {
         width: 95px;
@@ -149,4 +152,11 @@
         margin-inline-end: 2rem;
     }
    
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        position: relative;
+        background-color: hsl(0 0% 0% / 0.95);
+    }
 }

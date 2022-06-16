@@ -6,27 +6,17 @@
   background:linear-gradient(377deg, rgba(77, 28, 9, 0.685), rgba(231, 173, 14, 0.253)), url('../../images/Assets/bgForm.jpg');
   background-position: center;
   background-size: cover;
-  padding: 3rem 4%;
+  padding: 2rem 4%;
   align-items: center;
+  margin: 0;
 }
 .formTitle {
   text-align: center;
-  margin: 8vh 0;
+  margin: 8vh auto;
   color: rgb(243, 242, 242);
   font-weight: bold;
 }
-.form-left {
-  display: flex;
-  flex-direction: column;
-  padding: 4rem 4%;
-  position: relative;
-  width: 100%;
-  background: hsl(0 0% 0% / 0.05);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  box-shadow: 0px 0px 5px 1px rgba(194, 177, 131, 0.068) ;
-  border-radius: 10px;
-}
+
 
 .form-left input {
   padding: 1rem !important;
@@ -51,6 +41,8 @@
   box-shadow: 3px 3px 5px 1px rgba(51, 51, 51, 0.26);
   padding: 2rem;
   border-radius: 10px;
+  width: 100%;
+  margin: auto;
 }
 
 
@@ -62,7 +54,8 @@
 }
 .GridForm {
   align-items: center;
-
+  width: 100%;
+  margin: auto;
 }
 .ticketLinks {
   text-align: center;

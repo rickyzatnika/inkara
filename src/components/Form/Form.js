@@ -49,11 +49,11 @@ const Forms = () => {
         <>
             <div className="form-ticket">
                 <h2 className='formTitle'>Form Pemesanan Ticket</h2>
-                <Row className="GridForm" as={Col} md='2'>
+                <Row className="GridForm" >
                     <Col>
                         <Form onSubmit={sendEmail} ref={form} className="Form-Control  text-white" noValidate validated={validated} onInput={handleSubmit}>
 
-                            <Row>
+                            <Row className="Form">
                                 <Form.Group className="mb-3" controlId="validationCustom01">
                                     <Form.Label>Nama Lengkap</Form.Label>
                                     <Form.Control
@@ -141,7 +141,7 @@ const Forms = () => {
                             <img src={ticket3} alt="ticket senja" />
                             <img src={ticket4} alt="ticket senja" />
                         </div>
-                        <a href=""><Button type="button">Order Via <FaWhatsappSquare size={25} /></Button></a>
+                        <a href="https://api.whatsapp.com/send?phone=6281910573272&text=Nama%20Lengkap%20%3A%0AAlamat%20Email%20%3A%0ANIK%20KTP%20%3A%0AJumlah%20Ticket%20%3A%0APilih%20Ticket%20%3A%20BRONZE%20%2C%20SILVER%2C%20GOLD%2C%20PLATINUM%0A"><Button type="button">Order Via <FaWhatsappSquare size={25} /></Button></a>
                     </Col>
                 </Row>
 
