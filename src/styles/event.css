@@ -93,7 +93,7 @@
      .tagline h2{
   
       
-        font-size: calc(35px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+        font-size: calc(45px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
     }
 
 }
