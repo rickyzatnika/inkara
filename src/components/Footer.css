@@ -104,4 +104,9 @@ footer{
             flex-direction: column;
             flex-wrap: wrap;
         }
+        footer{
+            margin-top: 80px;
+            padding-top: 2vh;
+        }
+        
     }

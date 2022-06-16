@@ -14,18 +14,18 @@ const Main = () => {
     <>
       <section className="hero">
         <Carousel >
-          <Carousel.Item interval={3000} >
+          <Carousel.Item interval={3000} className="carousel-item">
             <img
               className="d-block w-100 bg2"
               src={bg}
               alt="First slide"
             />
-                <div className="hero-content">
-                    <h1>EVENT MANAGEMENT SYSTEM</h1>
-                    <h2>Creative <span>Solutions</span> <span className='and'>&</span> <span>Ideas</span></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quae est atque delectus dolor, molestias facilis quas totam nisi qui rerum, saepe.</p>
-                    <Link to='www.google.com'><button type='button' className='btn'>Work With Us</button></Link>
-                </div>
+            <div className="hero-content">
+                <h1>EVENT MANAGEMENT SYSTEM</h1>
+                <h2>Creative <span>Solutions</span> <span className='and'>&</span> <span>Ideas</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quae est atque delectus dolor, molestias facilis quas totam nisi qui rerum, saepe.</p>
+                <Link to='www.google.com'><button type='button' className='btn'>Work With Us</button></Link>
+            </div>
            
           </Carousel.Item>
           <Carousel.Item interval={5000}>
