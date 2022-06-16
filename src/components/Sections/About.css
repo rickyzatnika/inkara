@@ -1,0 +1,119 @@
+.about-container {
+    width: 100%;
+    position: relative;
+    padding: 2rem;
+}
+
+
+.about-title {
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(209, 208, 208, 0.548);
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.about-title h3 {
+    font-family: 'Yesteryear', cursive;
+    font-size: calc(30px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    margin: 8px 0;
+    color: var(--secondary-color);
+}
+.about-title h4 {
+    padding-bottom: 20px;
+    color: var(--dark-color);
+}
+.about-content {
+    display: grid;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: center;
+    padding: 0 4%;
+    z-index: 1;
+}
+.about-content .col-1 {
+    padding: 2rem;
+    width: 100%;
+    
+}
+.about-content h1 {
+    line-height: 3rem;
+}
+.about-content .col-1 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: right;
+    font-size: calc(20px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+    margin-bottom: 8px;
+    
+}
+.about-content .col-2 {
+    width: 100%;
+    grid-column: 2 / 5;
+    line-height: 1.8;
+    align-items: center;
+}
+.about-content .col-2 p {
+    color: var(--dark-color);
+    font-weight: normal !important;
+    font-size: calc(12px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+.about-links a {
+    margin-left: 28px;
+    color: var(--secondary-color);
+}
+.about-links:hover a {
+    color: var(--primary-color);
+}
+
+.about-links {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    width: 100%;
+    text-align: right !important;
+}
+.icon-play {
+    align-items: center;
+    border: 2px solid var(--secondary-color);
+    border-radius: 50%;
+}
+.link-contents {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+.link-contents a {
+    position: relative;
+    color: #0a0a0a;
+    font-size: calc(12px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 700;
+    padding-right: 10px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    
+}
+.link-contents:hover a {
+    color: var(--secondary-color);
+}
+
+
+
+@media screen and (max-width: 940px) {
+    .about-content {
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .about-content .col-2 {
+        width: 100%;
+        grid-column: auto;
+        margin-left: 0;
+    }
+    
+}
+
+

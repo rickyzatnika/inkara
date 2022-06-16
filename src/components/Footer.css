@@ -1,0 +1,104 @@
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(12, 12, 12);
+    width: 100vw;
+    padding-top: 40px;
+    color: rgb(177, 174, 174);
+    align-items: center;
+}
+
+
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: calc(20px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 3rem;
+    color: white;
+}
+.footer-content h3 span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: var(--light-color);
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    
+    font-size: calc(10px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+    color: var(--light-color);
+}
+.footer-menu{
+    margin-bottom: 20px;
+    margin: 2rem;
+  }
+  .footer-menu ul{
+    display: flex;
+  }
+  .footer-menu ul li{
+  padding-right: 10px;
+  display: block;
+  }
+  .footer-menu ul li a{
+    color: var(--light-color);
+    border-right: 1px solid rgb(145, 143, 143);
+    padding: 1px 18px;
+    border-radius: 10px;
+    font-size: calc(8px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+  }
+  .footer-menu ul li a:hover{
+    color: var(--secondary-color);
+  }
+  .footer-bottom{
+    background: #000;
+    width: 100%;
+    padding: 10px 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom p{
+    text-align: center;
+    font-size: calc(10px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p a{
+  color:var(--secondary-color);
+  
+  font-size: calc(10px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.support-links a {
+    font-size: calc(8px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
+    color: var(--light-color);
+    margin: auto 8px;
+}
+.support-links a:hover {
+    color: rgb(99, 99, 99);
+}
+
+@media (max-width:500px) {
+        .footer-menu ul{
+        display: inline;
+        }
+        .footer-menu ul li{
+        margin-bottom: 20px;
+        }
+    }

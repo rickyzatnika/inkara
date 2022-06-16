@@ -1,0 +1,36 @@
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 100vw;
+    height: 100%;
+    padding: 1rem 4%;
+}
+.slider img {
+    width: 350px;
+    height: 250px;
+}
+
+.arrow-slider {
+    position: absolute;
+    bottom: -10%; left: 0; right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    cursor: pointer;
+}
+.slider-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    margin-top: -10vh;
+}
+.box-slider {
+    display: flex;
+    flex-direction: row;
+    flex-basis:auto;
+    justify-content: center;
+    width: 100%;
+   
+    padding: 1rem 0;
+}

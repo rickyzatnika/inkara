@@ -1,0 +1,26 @@
+.gallery {
+    position: relative;
+    padding-top: 10%;
+    width: 100%;
+    height: 100vh;
+    background: rgb(201, 201, 201);
+}
+.gallery-title {
+    text-align: center;
+    padding-top: 10%;
+}
+.gallery-content {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    position: relative;
+    top: 5%;
+}
+
+.gallery-image {
+    margin-top: 10vh;
+}
+.gallery-image .title {
+    text-align: center;
+}
